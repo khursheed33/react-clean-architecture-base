@@ -6,7 +6,7 @@ import { safeApiCall } from '../exceptions/SafeApiCall';
 import Failure  from '../../core/errors/Failure';
 import UserEntity  from '../../domain/entities/UserEntity';
 
-export class AuthRepositoryImpl implements AuthenticationRepository {
+export class AuthenticationRepositoryImpl implements AuthenticationRepository {
   private readonly datasource: AuthenticationRemoteDatasource;
  
 
